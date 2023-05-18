@@ -51,7 +51,7 @@ input[type="color"]::-webkit-color-swatch-wrapper {
 }
 
 input[type="color"]::-webkit-color-swatch {
-    border: 2px solid rgba(229, 229, 229, 1);
+    border: 4px solid rgba(229, 229, 229, 1);
     padding: 0;
     margin: 0;
 }
@@ -65,10 +65,6 @@ select {
     border: 1px solid rgba(209, 213, 219, 1); 
     cursor: pointer;
     padding: 0 0 0 10px;
-}
-
-select option {
-    padding: 4px 10px;
 }
 
 #generate-btn {
@@ -89,27 +85,27 @@ select option {
 
 .first {
     grid-column: 1 / 2;
-    background: rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
 }
 
 .second {
     grid-column: 2 / 3;
-    background: rgb(255, 166, 0);
+    background: rgb(0, 0, 0);
 }
 
 .third {
     grid-column: 3 / 4;
-    background: rgb(255, 255, 0);
+    background: rgb(0, 0, 0);
 }
 
 .fourth {
     grid-column: 4 / 5;
-    background: rgb(97, 55, 0);
+    background: rgb(0, 0, 0);
 }
 
 .fifth {
     grid-column: 5 / 6;
-    background: rgb(67, 0, 122);
+    background: rgb(0, 0, 0);
 }
 
 .code {
